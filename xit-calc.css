@@ -1,0 +1,88 @@
+:root {
+  --dcg-custom-background-color: #222;
+  --dcg-custom-text-color: #bbb;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#calculator {
+  width: 100%;
+  height: 100%;
+}
+
+.dcg-basic-expression {
+  border: 1px solid #545454 !important;
+}
+
+.dcg-basic-expression.dcg-focused {
+  box-shadow: none !important;
+}
+
+.dcg-basic-keypad-container, .dcg-keypad-control-bar {
+  background: #262626 !important;
+}
+
+.dcg-keypad-btn {
+  box-shadow: none !important;
+  border: 1px solid #444 !important;
+  border-radius: 0 !important;
+}
+
+.dcg-keypad-control-btn.dcg-disabled {
+  color: #353535 !important;
+}
+
+.dcg-basic-fraction-toggle {
+  color: #bbb !important;
+  border: 2px solid #bbb !important;
+}
+
+.dcg-segmented-control-btn {
+  color: var(--dcg-custom-text-color) !important;
+}
+
+.dcg-segmented-control-btn.dcg-selected {
+  color: #222 !important;
+}
+
+.dcg-keypad-control-btn:hover {
+  background: #545454 !important;
+}
+
+.dcg-btn-light-on-gray {
+  background: #222222 !important;
+  color: #bbb !important;
+}
+
+.dcg-btn-light-on-gray:hover {
+  background: #272727 !important;
+}
+
+.dcg-btn-dark-on-gray {
+  background: #333333 !important;
+  color: #bbb !important;
+}
+
+.dcg-btn-dark-on-gray:hover {
+  background: #383838 !important;
+}
+
+.dcg-btn-short-blue {
+  background: #3fa2de !important;
+  color: #eee !important;
+}
+
+.dcg-btn-short-blue:hover {
+  background: #2774b3 !important;
+}
