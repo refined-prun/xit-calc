@@ -21,26 +21,26 @@ body {
   height: 100%;
 }
 
+.dcg-basic-list-container {
+  border-top: none !important;
+}
+
+.dcg-basic-list-placeholder {
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.dcg-calc-basic-main > *:nth-child(2) {
+  display: none;
+}
+
 .dcg-basic-expression {
-  border: 1px solid #545454 !important;
+  border: 1px solid #555 !important;
 }
 
 .dcg-basic-expression.dcg-focused {
   box-shadow: none !important;
-}
-
-.dcg-basic-keypad-container, .dcg-keypad-control-bar {
-  background: #262626 !important;
-}
-
-.dcg-keypad-btn {
-  box-shadow: none !important;
-  border: 1px solid #444 !important;
-  border-radius: 0 !important;
-}
-
-.dcg-keypad-control-btn.dcg-disabled {
-  color: #353535 !important;
+  border: 1px solid #888 !important;
 }
 
 .dcg-basic-fraction-toggle {
@@ -48,41 +48,6 @@ body {
   border: 2px solid #bbb !important;
 }
 
-.dcg-segmented-control-btn {
-  color: var(--dcg-custom-text-color) !important;
-}
-
-.dcg-segmented-control-btn.dcg-selected {
-  color: #222 !important;
-}
-
-.dcg-keypad-control-btn:hover {
-  background: #545454 !important;
-}
-
-.dcg-btn-light-on-gray {
-  background: #222222 !important;
-  color: #bbb !important;
-}
-
-.dcg-btn-light-on-gray:hover {
-  background: #272727 !important;
-}
-
-.dcg-btn-dark-on-gray {
-  background: #333333 !important;
-  color: #bbb !important;
-}
-
-.dcg-btn-dark-on-gray:hover {
-  background: #383838 !important;
-}
-
-.dcg-btn-short-blue {
-  background: #3fa2de !important;
-  color: #eee !important;
-}
-
-.dcg-btn-short-blue:hover {
-  background: #2774b3 !important;
+.dcg-answer-hint {
+  display: none;
 }
